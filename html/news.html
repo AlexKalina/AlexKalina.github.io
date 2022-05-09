@@ -6,19 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FOOTINBEL</title>
+	<link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
 		rel="stylesheet">
 	<link href="http://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
 	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/news.css">
+	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" media="screen and (max-width: 1024px)" href="/css/desktop.css">
 	<link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobulefull.css">
-	<link rel="stylesheet" media="screen and (max-width: 520px)" href="/css/mobile.css">
+	<link rel="stylesheet" media="screen and (max-width: 520px)" href="/css/mobilemax.css">
 	<link rel="stylesheet" media="screen and (max-width: 375px)" href="/css/mobile.css">
 </head>
 
 <body>
+
 	<div class="website">
+
 		<header class="header">
 			<div class="header__navbar">
 				<div class="header__logo">
@@ -30,10 +33,10 @@
 				</div>
 				<nav class="header__nav">
 					<a class="header__link" href="/index.html">Home</a>
-					<a class="header__link" href="#">Scores</a>
-					<a class="header__link" href="#">Table</a>
-					<a class="header__link" href="/players.html">Players</a>
-					<a class="header__link" href="/news.html">News</a>
+					<a class="header__link" href="/html/scores.html">Scores</a>
+					<a class="header__link" href="/html/table.html">Table</a>
+					<a class="header__link" href="/html/players.html">Players</a>
+					<a class="header__link" href="/html/news.html">News</a>
 				</nav>
 				<div class="search">
 					<form class="search__box">
@@ -42,13 +45,14 @@
 				</div>
 			</div>
 		</header>
-		<section class="news">
+
+		<section class="news top news-item">
 			<div class="news__wrapper">
-				<p class="title__name first__name">news</p>
+				<p class="title__name first__name">News</p>
 				<h2 class="subtitle">The Latest News</h2>
 				<div class="news__box">
 					<div class="news__item">
-						<img src="/img/news__one.jpg" alt="news__photo" class="news__img">
+						<img src="/img/news/news__one.jpg" alt="news__photo" class="news__img">
 						<div class="news__info">
 							<p class="result__date result__date-text">October 30, 2021</p>
 							<h3 class="news__title">The World Cup – What to Expect from England</h3>
@@ -56,7 +60,7 @@
 						</div>
 					</div>
 					<div class="news__item">
-						<img src="/img/news__two.jpg" alt="news__photo" class="news__img">
+						<img src="/img/news/news__two.jpg" alt="news__photo" class="news__img">
 						<div class="news__info">
 							<p class="result__date result__date-text">August 1, 2021</p>
 							<h3 class="news__title">2022 League Report and Highlights</h3>
@@ -64,24 +68,23 @@
 						</div>
 					</div>
 					<div class="news__item-top">
-						<img src="/img/news__top.jpg" alt="news__photo" class="news__img-top">
+						<img src="/img/news/news__top.jpg" alt="news__photo" class="news__img-top">
 						<div class="news__info-text">
 							<p class="result__date result__date-text">August 4, 2021</p>
 							<h3 class="news__title news__title-top">The World Cup – Latest Game</h3>
 						</div>
 					</div>
 				</div>
-				
 		</section>
 
 		<section class="sponsor">
 			<div class="sponsor__wrapper">
-				<img class="sponsor__img" src="/img/sponsor__two.webp" alt="sponsor__logo">
-				<img class="sponsor__img" src="/img/sponsor__one.webp" alt="sponsor__logo">
-				<img class="sponsor__img" src="/img/sponsor__three.webp" alt="sponsor__logo">
-				<img class="sponsor__img" src="/img/sponsor__four.webp" alt="sponsor__logo">
-				<img class="sponsor__img" src="/img/sponsor__five.webp" alt="sponsor__logo">
-				<img class="sponsor__img" src="/img/sponsor__six.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__one.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__two.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__three.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__four.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__five.webp" alt="sponsor__logo">
+				<img class="sponsor__img" src="/img/sponsors/sponsor__six.webp" alt="sponsor__logo">
 			</div>
 		</section>
 
@@ -89,10 +92,10 @@
 			<div class="footer__navbar">
 				<nav class="footer__nav">
 					<a class="footer__link" href="/index.html">Home</a>
-					<a class="footer__link" href="#">Scores</a>
-					<a class="footer__link" href="#">Table</a>
-					<a class="footer__link" href="/players.html">Players</a>
-					<a class="footer__link" href="/news.html">News</a>
+					<a class="footer__link" href="/html/scores.html">Scores</a>
+					<a class="footer__link" href="/html/table.html">Table</a>
+					<a class="footer__link" href="/html/players.html">Players</a>
+					<a class="footer__link" href="/html/news.html">News</a>
 				</nav>
 				<div class="copyright">
 					<div class="copyright__wrapper">
@@ -104,6 +107,7 @@
 		</footer>
 
 	</div>
+
 </body>
 
 </html>

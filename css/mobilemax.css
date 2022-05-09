@@ -1,3 +1,5 @@
+/* стили для для экранов =< 520px*/
+
 .header {
   height: min-content;
   position: relative;
@@ -31,7 +33,6 @@
 .search {
   padding: 20px 0;
 }
-
 
 .first {
   display: flex;
@@ -279,7 +280,7 @@
   align-items: center;
   justify-content: center;
   margin: 20px;
-	border: none;
+  border: none;
 }
 
 .footer__nav {
@@ -292,4 +293,11 @@
 
 .copyright__wrapper-text {
   font-size: 12px;
+}
+
+.table-item,
+.player-item,
+.news-item,
+.results-item {
+  margin-top: 0;
 }

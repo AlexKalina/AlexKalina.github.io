@@ -22,7 +22,7 @@
   grid-template: 1fr / 20% 2fr 20%;
   justify-content: space-between;
   width: 90%;
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .header__logo {
@@ -128,7 +128,7 @@
 }
 
 .first {
-  background-image: url(/img/header\ копия.webp);
+  background-image: url(/img/first/header.webp);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -274,7 +274,7 @@
 }
 
 .first__match {
-  background-image: url(/img/tiket.png);
+  background-image: url(/img/first/tiket.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -585,7 +585,7 @@
   letter-spacing: 1.2px;
   color: #262f3e;
   margin-bottom: 20px;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .news__text {
@@ -639,7 +639,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px 60px;
-	border-bottom: solid 1px #a6a699;
+  border-bottom: solid 1px #a6a699;
 }
 
 .sponsor__wrapper {
@@ -679,7 +679,7 @@
   align-items: center;
   justify-content: left;
   padding: 40px 0;
-	width: 100%;
+  width: 100%;
 }
 
 .footer__link {
@@ -717,4 +717,10 @@
 
 .copyright__wrapper-text {
   color: #a6a699;
+}
+
+/* стиль для всех страниц отступ от header */
+
+.top {
+  margin-top: 98px;
 }

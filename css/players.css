@@ -22,7 +22,7 @@
   grid-template: 1fr / 20% 2fr 20%;
   justify-content: space-between;
   width: 90%;
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .header__logo {
@@ -132,7 +132,7 @@
   font-size: 52px;
   font-weight: 700;
   color: #262f3e;
-	margin: 0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .title__name {
@@ -147,12 +147,11 @@
   margin-bottom: 4px;
 }
 
-
 .player {
   display: flex;
   width: 100%;
   background-color: #ffffff;
-	margin-top: 98px;
+  margin-top: 98px;
 }
 
 .player__box {
@@ -181,8 +180,8 @@
   align-items: left;
   width: 100%;
   height: 100%;
-	background-color: #262f3e;
-	padding: 10px;
+  background-color: #262f3e;
+  padding: 10px;
 }
 
 .player__namber {
@@ -231,7 +230,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px 60px;
-	border-bottom: solid 1px #a6a699;
+  border-bottom: solid 1px #a6a699;
 }
 
 .sponsor__wrapper {
@@ -271,7 +270,7 @@
   align-items: center;
   justify-content: left;
   padding: 40px 0;
-	width: 100%;
+  width: 100%;
 }
 
 .footer__link {
