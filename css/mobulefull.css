@@ -119,7 +119,7 @@
 .table__colomn,
 .col__width,
 .col__club {
-  padding: 0 5px;
+  padding: 10px 5px;
   width: min-content;
 }
 
