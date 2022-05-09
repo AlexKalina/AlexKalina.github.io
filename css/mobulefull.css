@@ -1,3 +1,5 @@
+/* стили для для экранов =< 768px*/
+
 .search__box-text {
   width: 150px;
 }
@@ -208,4 +210,11 @@
 
 .copyright__wrapper-text {
   margin: 0;
+}
+
+.table-item,
+.player-item,
+.news-item,
+.results-item {
+  margin-top: 0;
 }
