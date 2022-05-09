@@ -679,6 +679,7 @@
   align-items: center;
   justify-content: left;
   padding: 40px 0;
+	width: 100%;
 }
 
 .footer__link {
