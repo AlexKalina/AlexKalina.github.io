@@ -22,6 +22,7 @@
   grid-template: 1fr / 20% 2fr 20%;
   justify-content: space-between;
   width: 90%;
+	margin-left: 20px;
 }
 
 .header__logo {
@@ -393,7 +394,7 @@
   flex-direction: column;
   align-items: center;
   width: 90%;
-  padding: 50px 60px;
+  padding: 50px 0;
 }
 
 .table__subtitle {
@@ -413,7 +414,7 @@
 .table__row-title {
   align-items: center;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   color: #262f3e;
   border-bottom: solid 1px #dddddd;
@@ -432,7 +433,7 @@
 .table__row-body {
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   height: 50px;
   font-weight: 500;
   color: #262f3e;
@@ -584,6 +585,7 @@
   letter-spacing: 1.2px;
   color: #262f3e;
   margin-bottom: 20px;
+	cursor: pointer;
 }
 
 .news__text {
@@ -637,6 +639,7 @@
   align-items: center;
   justify-content: center;
   padding: 50px 60px;
+	border-bottom: solid 1px #a6a699;
 }
 
 .sponsor__wrapper {
@@ -675,7 +678,6 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  border-top: 1px solid #a6a6a6;
   padding: 40px 0;
 }
 
@@ -698,7 +700,6 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  border-top: 1px solid #a6a6a6;
   padding: 40px 0;
 }
 

@@ -5,8 +5,7 @@
   align-items: center;
   justify-content: center;
   height: min-content;
-  z-index: 2;
-  padding-top: 0;
+  position: relative;
   padding: 0 20px;
   width: 100%;
 }
@@ -100,7 +99,7 @@
 }
 
 .first {
-  margin-top: 160px;
+  margin-top: 0;
 }
 
 .first__info {
@@ -108,28 +107,14 @@
   grid-template: repeat(2, 50%) / 55% 45%;
 }
 
-.first__news-one {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.first__name-item {
+  font-size: calc(50px + 30 * (100vw / 1280));
 }
 
 .first__welcome {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.title__name {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 1.2em;
-  letter-spacing: 2.4px;
-  color: #ff0004;
-  margin-bottom: 4px;
 }
 
 .first__text-item-top {
@@ -144,7 +129,9 @@
 
 .first__news-link {
   cursor: pointer;
+	font-size: calc(12px + 10 * (100vw / 1280));;
 }
+
 .first__news-link:hover {
   color: #ff0004;
 }
@@ -160,19 +147,36 @@
 .first__match {
   grid-column: 1 / 2;
   grid-row: 2 / 2;
-	background-position: inherit;
-	align-items: center;
-	margin-top: 50px;
+  background-position: inherit;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.result__date-text {
-  color: #ff0004;
-  margin-bottom: 10px;
+.results {
+  height: min-content;
+}
+
+.result__box {
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 25px;
+  height: min-content;
+  margin: 30px auto;
+}
+
+.result__leagua {
+  text-align: center;
+  line-height: 1.2;
 }
 
 .table__section {
   padding: 0;
   margin: 50px auto;
+}
+
+.table__colomn-title,
+.table__colomn {
+  vertical-align: middle;
+  padding: 5px 10px;
 }
 
 .player__box {
@@ -233,14 +237,33 @@
   margin: 30px 25px 30px 25px;
 }
 
+.sponsor {
+	padding: 30px 0;
+}
+
 .footer {
-	padding: 50px 20px;
+  padding: 50px 20px;
+}
+
+.footer__navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 90%;
+  border-top: none;
 }
 
 .footer__nav {
-	border: none;
+  display: none;
 }
 
 .copyright__wrapper {
-	border: none;
+  border-top: none;
+}
+
+.copyright__wrapper-name,
+.copyright__wrapper-text {
+	font-size: 20px;
 }

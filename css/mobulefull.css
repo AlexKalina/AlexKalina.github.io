@@ -1,171 +1,211 @@
-/* стили для для экранов =< 768px*/
+.search__box-text {
+  width: 150px;
+}
 
-  .website {
-    max-width: 768px;
-  }
+.search__box-text:focus {
+  width: 230px;
+}
 
-  .subtitle {
-    font-size: 40px;
-  }
+.subtitle {
+  font-size: 40px;
+}
 
-  .results {
-    height: min-content;
-  }
-  .result__box {
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    gap: 25px;
-    height: min-content;
-    margin: 30px auto;
-  }
-  .result__leagua {
-    text-align: center;
-    line-height: 1.2;
-  }
+.first__btn {
+  height: 30px;
+  width: 190px;
+  font-size: 13px;
+  padding: 0;
+  margin: 20px;
+}
 
-  .table {
-    height: min-content;
-    min-width: 768px;
-  }
+.first {
+  padding: 0;
+  background-size: 100%;
+  height: 100%;
+}
 
-  .table__subtitle {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  .table__section {
-    padding: 0;
-    margin: 20px auto;
-  }
+.first__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+}
 
-  .table__header {
-    height: 40px;
-  }
-  .table__row-title {
-    font-size: 25px;
-    padding: 0 15px;
-  }
+.first__welcome {
+  margin-top: 20px;
+  justify-content: start;
+  align-items: center;
+}
 
-  .table__colomn-title,
-  .table__colomn,
-  .col__width,
-  .col__club {
-    padding: 0 5px;
-    width: min-content;
-  }
+.first__name-item {
+  font-size: calc(30px + 70 * (100vw / 1280));
+  text-align: center;
+}
 
-  .table__colomn {
-    font-size: 20px;
-    height: 50px;
-  }
+.first__text-item,
+.first__news-one,
+.first__footballer,
+.next__match {
+  display: none;
+}
 
-	.first {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 0;
-		background-size: 100%;
-		height: min-content;
-		margin-top: 115;
-	}
-	
-	.first__info {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	
-	.first__welcome {
-		margin-top: 50px 0;
-		justify-content: start;
-		align-items: center;
-	}
-	
-	.first__name-item {
-		font-size: 100px;
-		text-align: center;
-	}
-	
-	.first__text-item,
-	.first__news-one,
-	.first__footballer,
-	.next__match {
-		display: none;
-	}
-	
+.results {
+  height: min-content;
+}
 
-  /* стили для секции игроки для экранов =< 768px*/
+.result__box {
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 25px;
+  height: min-content;
+  margin: 30px auto;
+}
 
-  .player {
-    width: 100%;
-    height: min-content;
-  }
-  .player__window-four,
-  .player__window-five {
-    display: none;
-  }
+.result__leagua {
+  text-align: center;
+  line-height: 1.2;
+}
 
-  .player__wrapper {
-    grid-template: 1fr / repeat(3, 1fr);
-  }
-  .player__name {
-    font-size: calc(15px + 10 * (100vw / 1280));
-    margin-bottom: 10px;
-  }
-  .player__role {
-    font-size: calc(15px + 5 * (100vw / 1280));
-  }
+.table p {
+  margin-bottom: 5px;
+}
 
+.table__subtitle {
+  margin-bottom: 10px;
+}
 
+.table__section {
+  padding: 0;
+  margin: 15px auto;
+}
 
+.table__header {
+  height: 30px;
+}
 
-	.news__item-top {
-		grid-row: 1 / 1;
-		grid-column: 1 / 1;
-		background-color: #ffffff;
-		display: flex;
-		flex-direction: column;
-	}
-	
-	.news__title-top {
-		font-size: 37px;
-		margin-bottom: 0;
-	}
-	
-	.news__info-text {
-		margin: 30px 25px 30px 25px;
-	}
+.table__row-title {
+  font-size: 15px;
+  padding: 0 10px;
+}
 
-	.sponsor {
-		padding: 30px 20px;
-	}
+.table__row-body {
+  height: 20px;
+  padding: 0 8px;
+}
 
-	.footer__navbar {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 0;
-		width: 90%;
-		border-top: 1px solid #a6a6a6;
-	}
+.table__colomn-title,
+.table__colomn,
+.col__width,
+.col__club {
+  padding: 0 5px;
+  width: min-content;
+}
 
-	.footer__nav {
-		display: none;
-	}
+.table__colomn {
+  font-size: 10px;
+  height: 30px;
+}
 
-	.copyright__wrapper {
-		justify-content: center;
-		width: 100%;
-		border-top: none;
-		padding: 30px 0;
-	}
+.table__row-title {
+  font-size: 15px;
+  padding: 0 10px;
+}
 
-	.copyright__wrapper-name,
-	.copyright__wrapper-text {
-		font-size: 15px;
-	}
+.table__row-body {
+  height: 20px;
+  padding: 0 8px;
+}
 
-	.copyright__wrapper-text {
-		margin: 0;
-	}
-	
+.table__colomn-title,
+.table__colomn,
+.col__width,
+.col__club {
+  padding: 0 5px;
+  width: min-content;
+}
+
+.table__colomn {
+  font-size: 10px;
+  height: 30px;
+}
+
+.player {
+  width: 100%;
+  height: min-content;
+}
+
+.player__window-four,
+.player__window-five {
+  display: none;
+}
+
+.player__wrapper {
+  grid-template: 1fr / repeat(3, 1fr);
+}
+
+.player__name {
+  font-size: calc(15px + 10 * (100vw / 1280));
+  margin-bottom: 10px;
+}
+
+.player__role {
+  font-size: calc(15px + 5 * (100vw / 1280));
+}
+
+.news__item-top {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.news__item {
+  grid-template: 0fr / 45% 58%;
+}
+
+.news__title-top {
+  font-size: 37px;
+  margin-bottom: 0;
+}
+
+.news__info-text {
+  margin: 30px 25px 30px 25px;
+}
+
+.news__img {
+  width: 100%;
+}
+
+.sponsor {
+  padding: 30px 20px;
+}
+
+.footer__navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 90%;
+  border-top: none;
+}
+
+.footer__nav {
+  display: none;
+}
+
+.copyright__wrapper {
+  justify-content: center;
+  width: 100%;
+  border-top: none;
+  padding: 30px 0;
+}
+
+.copyright__wrapper-name,
+.copyright__wrapper-text {
+  font-size: 15px;
+}
+
+.copyright__wrapper-text {
+  margin: 0;
+}
